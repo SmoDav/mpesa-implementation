@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/register-url', 'MPesaController@register');
+Route::any('/mpesa/validate', 'MPesaController@validateTransaction');
+Route::any('/mpesa/confirm', 'MPesaController@confirmTransaction');
+
+Route::get('/fake-invoice', 'MPesaTestController@fakeInvoice');
+Route::get('/real-invoice', 'MPesaTestController@realInvoice');
