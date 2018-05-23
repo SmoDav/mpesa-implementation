@@ -22,9 +22,9 @@ return [
     | These are the credentials to be used to transact with the M-Pesa API
     */
 
-    'consumer_key' => '',
+    'consumer_key' => 'QGvsUr8abgUfGxWIhF6ZcArhPTWUJY6z',
 
-    'consumer_secret' => '',
+    'consumer_secret' => '9CDdKeuCAcFxVtvb',
 
     'production_endpoint' => '',
 
